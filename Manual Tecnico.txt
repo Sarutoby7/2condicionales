@@ -1,0 +1,30 @@
+Manual Técnico:
+
+1.	HTML (index.html):
+o	La página incluye un campo de entrada numérica (<input>) donde el usuario ingresa su calificación.
+o	Al hacer clic en el botón (<button>), se determina el nivel de rendimiento.
+o	El resultado se muestra en el artículo (<article>) con el id resultado.
+
+2.	CSS (estilos.css):
+o	El diseño de la página tiene un fondo verde claro, con elementos centrados y estilizados para mayor claridad.
+o	La sección principal tiene un estilo limpio con bordes redondeados y una sombra para resaltar.
+o	El mensaje de resultado se muestra en un color verde oscuro para resaltar el rendimiento.
+
+3.	JavaScript (script.js):
+o	Se obtienen los elementos del DOM (botonClasificar, campoCalificacion, contenedorResultado)
+    usando getElementById.
+o	Se agrega un eventListener al botón que escucha el evento click.
+o	Al hacer clic, se obtiene el valor del campo de entrada (campoCalificacion.value),
+    se convierte a entero usando parseInt, y se guarda en la variable calificacion.
+o	Se utilizan condicionales if-else para clasificar la calificación:
+	calificacion >= 90: Excelente
+	calificacion >= 70: Bueno
+	calificacion >= 50: Regular
+	calificacion >= 0: Insuficiente
+	Si se ingresa un valor fuera del rango, se muestra un mensaje solicitando una calificación válida.
+o	El resultado se muestra en el contenedor resultado usando textContent.
+
+Este ejercicio introduce el uso de condicionales para clasificar valores numéricos,
+permitiendo al usuario ver cómo se asignan diferentes niveles de rendimiento basados en su calificación.
+
+Github:
