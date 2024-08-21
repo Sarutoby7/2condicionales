@@ -28,3 +28,4 @@ Este ejercicio introduce el uso de condicionales para clasificar valores numéri
 permitiendo al usuario ver cómo se asignan diferentes niveles de rendimiento basados en su calificación.
 
 Github:
+https://sarutoby7.github.io/2condicionales/
